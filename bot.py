@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-bot = Bot(token=os.getenv("8214842850:AAHSoUS_hV0Ltuew3_o6TZANakPUtWqSFYA"))
+bot = Bot(token=os.getenv("BOT_TOKEN"))
 dp = Dispatcher()
 
 def menu():
